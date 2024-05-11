@@ -1,3 +1,8 @@
-#main {
-  color: rgb(10, 255, 132);
+h4 {
+  color: brown;
+  background-color: aqua;
+  font-size: 6px;
+}
+p {
+  color: rgb(125, 86, 69);
 }
