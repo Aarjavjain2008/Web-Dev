@@ -1,0 +1,124 @@
+body {
+  text-align: center;
+  height: 150vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background-image: url(https://t3.ftcdn.net/jpg/03/30/15/14/360_F_330151483_Sx781cc6cbYsUpezlA3ozTxAVCxeDpGV.jpg);
+  background-size: cover;
+  border-radius: 20vh;
+}
+
+#navBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  background: linear-gradient(
+    135deg,
+    rgb(0, 255, 200),
+    rgb(153, 0, 255),
+    rgb(0, 119, 255)
+  );
+  border-radius: 20vh;
+}
+
+#companyBox {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  justify-self: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12vw;
+  height: 7vh;
+  border-radius: 20vh;
+}
+
+#logo {
+  margin-left: -2vw;
+  height: 5vh;
+  width: 5vh;
+  border: 0.3vh solid rgb(255, 0, 128);
+  border-radius: 50%;
+  background-image: url();
+}
+
+#name {
+  margin-left: 1vh;
+  margin-right: -2vw;
+  font-size: 2vh;
+  font-weight: 1000;
+  background: linear-gradient(135deg, #240046, #7b2cbf);
+  background-clip: text;
+  color: transparent;
+}
+
+#searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70vw;
+  height: 7vh;
+}
+
+#searchInput {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 40vw;
+  height: 7vh;
+  border-radius: 20vh;
+  border: none;
+  border-color: transparent;
+  outline: none;
+  font-size: 2vh;
+  padding-left: 1vw;
+  color: rgb(0, 4, 255);
+}
+
+#searchInput::placeholder {
+  font-size: 8vh;
+}
+
+#searchButton {
+  position: absolute;
+  right: 20vw;
+  background: rgb(255, 0, 149);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 6vw;
+  height: 7.13vh;
+  border-radius: 20vh;
+  font-size: 3vh;
+  cursor: pointer;
+}
+
+#article {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+p {
+  background: linear-gradient(
+    135deg,
+    rgb(0, 102, 255),
+    rgb(183, 0, 255),
+    rgb(255, 0, 128)
+  );
+  background-clip: text;
+  color: transparent;
+}
