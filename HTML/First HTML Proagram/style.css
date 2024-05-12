@@ -12,7 +12,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 99vw;
   height: 10vh;
   text-align: center;
   display: flex;
@@ -41,6 +41,7 @@ body {
   width: 12vw;
   height: 7vh;
   border-radius: 20vh;
+  text-decoration: none;
 }
 
 #logo {
@@ -66,7 +67,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 70vw;
+  width: 50vw;
   height: 7vh;
 }
 
@@ -112,13 +113,58 @@ body {
   align-items: center;
   justify-self: center;
 }
+
 p {
+  width: 98vw;
   background: linear-gradient(
     135deg,
     rgb(0, 102, 255),
     rgb(183, 0, 255),
     rgb(255, 0, 128)
   );
+  background-clip: text;
+  color: transparent;
+}
+
+::-webkit-scrollbar {
+  background: linear-gradient(
+    135deg,
+    rgb(0, 102, 255),
+    rgb(183, 0, 255),
+    rgb(255, 0, 128)
+  );
+  width: 0.5vw;
+  border-radius: 2vh;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, rgb(43, 255, 0), rgb(229, 255, 0));
+  width: 0.5vw;
+  height: 0.1vh;
+  border-radius: 2vh;
+}
+
+#performances {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  justify-self: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6vw;
+  height: 7vh;
+  border-radius: 20vh;
+}
+
+#performances a {
+  text-decoration: none;
+  font-size: 2vh;
+  font-weight: 1000;
+  background: linear-gradient(135deg, #240046, #7b2cbf);
   background-clip: text;
   color: transparent;
 }
