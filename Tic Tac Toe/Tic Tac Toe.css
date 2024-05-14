@@ -1,0 +1,135 @@
+* {
+  border: border-box;
+  margin: 0px;
+  padding: 0px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+body {
+  height: 99.67vh;
+  background: rgba(0, 127, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background-image: url(https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_1280.jpg);
+  background-size: cover;
+}
+
+#heading {
+  color: white;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: rgba(0, 0, 0, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  -webkit-backdrop-filter: blur(9px);
+  backdrop-filter: blur(9px);
+  border-radius: 10px;
+  border: 0.1vh solid rgba(255, 255, 255, 0.18);
+}
+
+#mainGameArea {
+  height: 60vh;
+  width: 100vw;
+}
+
+#PickBtnSection {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  border: none;
+  width: 60vw;
+  height: 6vh;
+  border-radius: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: #1c1a1c;
+  transition: all 450ms ease-in-out;
+  background: linear-gradient(0deg, #a47cf3, #683fea);
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+    inset 0px -0.6vh 0px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 0px 0.6vh rgba(255, 255, 255, 0.2), 0px 0px 10vh 0px #9917ff;
+  transform: translateY(-2px);
+}
+
+.YouWon {
+  border: none;
+  width: 70vw;
+  height: 6vh;
+  border-radius: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: #1c1a1c;
+  transition: all 450ms ease-in-out;
+  background: linear-gradient(0deg, #13e100, #00ffae);
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+    inset 0px -0.6vh 0px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 0px 0.6vh rgba(255, 255, 255, 0.2), 0px 0px 10vh 0px #13e100;
+  transform: translateY(-2px);
+}
+
+.YouLost {
+  border: none;
+  width: 50vw;
+  height: 6vh;
+  border-radius: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: #1c1a1c;
+  transition: all 450ms ease-in-out;
+  background: linear-gradient(0deg, #ff0000, #a70505);
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+    inset 0px -0.6vh 0px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 0px 0.6vh rgba(255, 255, 255, 0.2), 0px 0px 10vh 0px #ff0000;
+  transform: translateY(-2px);
+}
+
+.Draw {
+  border: none;
+  width: 60vw;
+  height: 6vh;
+  border-radius: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: #1c1a1c;
+  transition: all 450ms ease-in-out;
+  background: linear-gradient(0deg, #0088ff, #00ddff);
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4),
+    inset 0px -0.6vh 0px 0px rgba(0, 0, 0, 0.2),
+    0px 0px 0px 0.6vh rgba(255, 255, 255, 0.2), 0px 0px 10vh 0px #00ddff;
+  transform: translateY(-2px);
+}
+
+.sparkle {
+  fill: #aaaaaa;
+  transition: all 800ms ease;
+  fill: white;
+  transform: scale(1.2);
+  height: 3vh;
+  width: 3vw;
+}
+
+.text {
+  font-weight: 600;
+  color: #aaaaaa;
+  font-size: 2.5vh;
+  color: white;
+}
